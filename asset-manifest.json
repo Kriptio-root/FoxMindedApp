@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Kriptio-root/FoxMindedApp/static/css/main.8bd58b11.css",
-    "main.js": "/Kriptio-root/FoxMindedApp/static/js/main.9d8110ba.js",
+    "main.js": "/Kriptio-root/FoxMindedApp/static/js/main.e05e2047.js",
     "index.html": "/Kriptio-root/FoxMindedApp/index.html",
     "main.8bd58b11.css.map": "/Kriptio-root/FoxMindedApp/static/css/main.8bd58b11.css.map",
-    "main.9d8110ba.js.map": "/Kriptio-root/FoxMindedApp/static/js/main.9d8110ba.js.map"
+    "main.e05e2047.js.map": "/Kriptio-root/FoxMindedApp/static/js/main.e05e2047.js.map"
   },
   "entrypoints": [
     "static/css/main.8bd58b11.css",
-    "static/js/main.9d8110ba.js"
+    "static/js/main.e05e2047.js"
   ]
 }
