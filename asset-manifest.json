@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Kriptio-root/FoxMindedApp/static/css/main.8bd58b11.css",
+    "main.js": "/Kriptio-root/FoxMindedApp/static/js/main.80ccaec1.js",
+    "index.html": "/Kriptio-root/FoxMindedApp/index.html",
+    "main.8bd58b11.css.map": "/Kriptio-root/FoxMindedApp/static/css/main.8bd58b11.css.map",
+    "main.80ccaec1.js.map": "/Kriptio-root/FoxMindedApp/static/js/main.80ccaec1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8bd58b11.css",
+    "static/js/main.80ccaec1.js"
+  ]
+}
