@@ -15,21 +15,21 @@ export function Nav() {
                         className="navLink"
                         end
                         style={({isActive}) => ({color: isActive ? '#9f0013' : 'inherit'})}
-                        to="/">Posts</NavLink>
+                        to="/FoxMindedApp/">Posts</NavLink>
                 </li>
                 <li>
                     <NavLink
                         className="navLink"
                         end
                         style={({isActive}) => ({color: isActive ? '#9f0013' : 'inherit'})}
-                        to="/users">Users</NavLink>
+                        to="/FoxMindedApp/users">Users</NavLink>
                 </li>
                 <li>
                     <NavLink
                         className="navLink"
                         end
                         style={({isActive}) => ({color: isActive ? '#9f0013' : 'inherit'})}
-                        to="/todo">Todo</NavLink>
+                        to="/FoxMindedApp/todo">Todo</NavLink>
                 </li>
             </ul>
         </section>
