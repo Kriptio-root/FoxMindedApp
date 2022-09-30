@@ -10,6 +10,7 @@ import {UsersList} from "./modules/users/UsersList";
 import  { TodoList } from './modules/todo/TodoList'
 import { UserActivity } from './modules/userActivity/UserActivity'
 function App() {
+    console.log('test')
     return (
         <Router>
             <Nav />
