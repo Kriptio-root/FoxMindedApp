@@ -17,13 +17,14 @@ function App() {
             <div className="App">
                 <main>
                     <Routes>
+                        <Route path='*' element={<Nav />}></Route>
                         <Route exact path="/FoxMindedApp/" element={<PostsList />} />
-                       <Route exact path="/FoxMindedApp//users" element={<UsersList />} />
-                        <Route exact path="/FoxMindedApp//users/:userId" element={<SingleUserPage />} />
-                       <Route exact path="/FoxMindedApp//users/:userId/:userLocation" element={<UserActivity />} />
+                       <Route exact path="/FoxMindedApp/users" element={<UsersList />} />
+                        <Route exact path="/FoxMindedApp/users/:userId" element={<SingleUserPage />} />
+                       <Route exact path="/FoxMindedApp/users/:userId/:userLocation" element={<UserActivity />} />
                        {/*<Route exact path="/users/:userId/:todos" element={<UserActivity />} />*/}
                        {/*<Route exact path="/users/:userId/:posts" element={<UserActivity />} />*/}
-                        <Route exact path="/FoxMindedApp//todo" element={<TodoList />} />
+                        <Route exact path="/FoxMindedApp/todo" element={<TodoList />} />
                     </Routes>
                 </main>
             </div>
