@@ -1,0 +1,23 @@
+.nav{
+  background-color: black;
+  &List{
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row;
+    flex-wrap: nowrap;
+  }
+  &Header{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    background-color: white;
+  }
+  &Title{
+    align-self: center;
+  }
+  &Link{
+    font-weight: bold;
+    color: #1cb864;
+  }
+}

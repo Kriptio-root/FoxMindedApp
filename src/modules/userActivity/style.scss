@@ -1,0 +1,41 @@
+.tab {
+  background-color: white;
+  color: #96858F;
+  cursor: pointer;
+  display: inline-block;
+  padding: 6px 24px;
+  position: relative;
+  text-transform: uppercase;
+  z-index: 0;
+  &:hover {
+    color: #6D7993;
+  }
+  &--selected {
+    border: 1px solid #9099A2;
+    border-bottom: none;
+    border-top:3px solid goldenrod;
+    color: #6D7993;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 6px;
+    z-index: 1;
+  }
+  &.tab--unselected{
+    border-bottom: 1px solid #9099A2;
+  }
+  &-panel{
+    &__header {
+      font-family: 'Trebuchet MS';
+      font-size: 12px;
+      position: relative;
+    }
+    &__content {
+      background-color: white;
+      height: 400px;
+    }
+  }
+}
+.hidden{
+  visibility: hidden;
+}
+

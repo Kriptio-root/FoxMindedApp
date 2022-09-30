@@ -1,0 +1,30 @@
+.user{
+  &__article{
+    margin: 0 auto;
+    &-wrapper{
+      margin-top: 5%;
+      border: solid;
+      border-bottom-color: #111111;
+      background: white;
+    }
+    &-content{
+      margin-top: 3em;
+      margin-bottom: 3em;
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      &-text{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        &--disabled{
+          font-size: 0.6em;
+          color: grey;
+        }
+      }
+      &--icon{
+        padding:4px 13px 0 0;
+      }
+    }
+  }
+}
